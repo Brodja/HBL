@@ -1,0 +1,117 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          margin: 0;
+          padding: 0;
+}
+
+a,
+a:active,
+a:focus {
+  outline: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  width: 100%;
+  clear: both;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+input:active,
+textarea:active {
+  outline: none;
+}
+
+:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+textarea {
+  resize: vertical;
+}
+
+textarea {
+  resize: horizontal;
+}
+body{
+  background-color: black;
+}
+.start{
+  display: flex;
+  justify-content: space-between;
+
+}
+.gif{
+  width: 20%;
+  height: 100%;
+  position: relative;
+  margin-top: 50px;
+  
+}
+.name{
+  width: 150%;
+  margin-top: 500px;
+  margin-left: -25%;
+  font-family: 'Pacifico', cursive;
+  font-size: 90px;
+  /* text-align: center; */
+  display: flex;
+  justify-content: space-between;
+}
+.leter{
+  opacity: 0;
+  color: white;
+}
+.love_box{
+text-align: center; 
+/* margin-top: -40%; */
+}
+.love{
+  width: 40%;
+}
+.foto{
+  width: 33%;
+  height: 40%;
+}
+.foto1{
+  width: 30%;
+  height:  40%;
+}
+span{
+  opacity: 0;
+  transition-duration: 5s;
+}
+span:hover{
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  transition-duration: 1s;
+}
+.text_area{
+  width: 100%;
+  word-wrap: break-word;
+  font-family: 'Lobster', cursive;
+  font-size: 25px;
+  color: white;
+  -moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;  
+}
+span{
+  color: white;
+  -moz-user-select: none;
+-khtml-user-select: none;
+user-select: none;  
+}
