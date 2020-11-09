@@ -99,6 +99,12 @@ span:hover{
   opacity: 1;
   transition-duration: 1s;
 }
+span:focus{
+  width: 25px;
+  height: 25px;
+  opacity: 1;
+  transition-duration: 1s;
+}
 .text_area{
   width: 100%;
   word-wrap: break-word;
@@ -108,6 +114,7 @@ span:hover{
   -moz-user-select: none;
 -khtml-user-select: none;
 user-select: none;  
+padding: 25px;
 }
 span{
   color: white;
