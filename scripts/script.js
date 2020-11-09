@@ -71,16 +71,16 @@ function func77() {
 //   console.log(history)
 // }
 // myfn();
-function go1() {
-  // $('#love').fadeTo(1000, 0.5);
-  $("#lgbt").fadeTo(3000, 1);
-  $("#lgbt").fadeOut(3000, 0);
+// function go1() {
+//   // $('#love').fadeTo(1000, 0.5);
+//   $("#lgbt").fadeTo(3000, 1);
+//   $("#lgbt").fadeOut(3000, 0);
 
-}
+// }
 
-function go2() {
-  // $('#love').fadeTo(1000, 0.5);
-  $("#lgbt2").fadeTo(3000, 1);
-  $("#lgbt2").fadeOut(3000, 0);
+// function go2() {
+//   // $('#love').fadeTo(1000, 0.5);
+//   $("#lgbt2").fadeTo(3000, 1);
+//   $("#lgbt2").fadeOut(3000, 0);
 
-}
+// }
