@@ -76,6 +76,7 @@ body{
 }
 .love_box{
 text-align: center; 
+position: relative;
 /* margin-top: -40%; */
 }
 .love{
@@ -92,6 +93,20 @@ text-align: center;
 span{
   opacity: 0;
   transition-duration: 5s;
+}
+.case{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.lgbt{
+  opacity: 0;
+}
+.lgbt2{
+  opacity: 0;
 }
 span:hover{
   width: 25px;
